@@ -4,7 +4,7 @@ pipeline {
     stages {   
         stage('development branch') { 
             steps { 
-               sh 'echo "This is development branch"' 
+               sh 'echo "This is development new branch with webhook"' 
             }
         }
      
